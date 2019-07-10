@@ -3,6 +3,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.mcd_config_file=/system/etc/mcd_default.conf \
     drm.service.enabled=true \
     vendor.video.disable.ubwc=1 \
+    debug.sdm.support_writeback=0 \
     persist.vendor.qcomsysd.enabled=1 \
     sys.vendor.shutdown.waittime=500 \
     ro.build.shutdown_timeout=0 \
