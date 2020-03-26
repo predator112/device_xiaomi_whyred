@@ -65,32 +65,32 @@ vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|aa08f9ec51392ed841f60ad08b7f083
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
 product/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
 
-# Audio - from jasmine-user 10 QKQ1.190910.002 V11.0.5.0.QDIMIXM release-keys
-vendor/firmware/dbmd4_va_fw.bin|ee640f9f4e367d513f5fb7d95c85e226c9f75750
-vendor/firmware/tas2557_uCDSP.bin|d16fc1db241670307f5071e256c886ecd18d30f7
-vendor/firmware/tfa98xx.cnt|f8b5291feaebe7e3d18fda5d8960c313656b4a3a
-vendor/firmware/voice_amodel.bin|f0485f84718886ebcba6f2be0eb92f18240b5115
-vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
-vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
-vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
-vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
-vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
-vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
-vendor/lib/libaudioalsa.so|272cd6a93bca7edbe3cf4323ca1612737f4f9cde
-vendor/lib/libaudioparsers.so|485bbd30e2ea7e40d7fbcb3d7aa1f8a222cd2fc4
-vendor/lib/libdrc.so|854e12157d5f09831b81fcf7a4cecf0f491d660a
-vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
-vendor/lib/libsurround_3mic_proc.so|3c98223a30bf84ff91ec6e000dfea5be4a86d3cc
-vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
-vendor/lib64/libacdb-fts.so|7efa5d9ec593efd8a449e3cfa43b29d33e3c312a
-vendor/lib64/libacdbloader.so|8cb6cd08907651bf00a73aa5bb5c7d1be4800bfc
-vendor/lib64/libacdbrtac.so|63b112f2a348324dcd27ec8963eb027cddef2fca
-vendor/lib64/libadiertac.so|cb848022d7ba1667a45d120cf6fd7a4fbd270bb7
-vendor/lib64/libaudcal.so|2009240b9036f57c408c8905d91b63eec52939d2
-vendor/lib64/libaudioalsa.so|a743be854f0af2ae8f60d6c598f078a4c09f8b41
-vendor/lib64/libaudioparsers.so|ab849844b97f005231b1b3150e61cd4b67cbdb11
-vendor/lib64/libqtigef.so|14823ccfd03373f7f4ab1bd3705539aa1e2b7ade
-vendor/lib64/soundfx/libasphere.so|bd48aa3d7cf27bf3b12ce29f429b719383e104fc
+# Audio
+vendor/firmware/dbmd4_va_fw.bin
+vendor/firmware/tas2557_uCDSP.bin
+vendor/firmware/tfa98xx.cnt
+vendor/firmware/voice_amodel.bin
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libaudioalsa.so
+vendor/lib/libaudioparsers.so
+vendor/lib/libdrc.so
+vendor/lib/libqtigef.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/soundfx/libasphere.so
+vendor/lib64/libacdb-fts.so
+vendor/lib64/libacdbloader.so
+vendor/lib64/libacdbrtac.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/libaudioalsa.so
+vendor/lib64/libaudioparsers.so
+vendor/lib64/libqtigef.so
+vendor/lib64/soundfx/libasphere.so
 
 # Audio ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
@@ -1472,18 +1472,17 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 
-# Thermal - configs
+# Thermal
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-map.conf
 vendor/etc/thermal-engine-normal.conf
-
-# Thermal - from jasmine-user 10 QKQ1.190910.002 V11.0.5.0.QDIMIXM release-keys
-vendor/bin/thermal-engine|2660c01a488abef8f50ff6380996809102c8215f
-vendor/lib/libthermalfeature.so|1f1eb616ba26b309a2fda7de40c2163a4acaaa35
-vendor/lib64/libthermalfeature.so|829b2fc0aa8c863d4b4b331e0a2c00663e01efe6
-vendor/lib64/libthermalioctl.so|2f0ee866e9059b1df9ca7b63815591354e7c77d8
--vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
--vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
+vendor/etc/thermal-engine-sgame.conf
+vendor/bin/thermal-engine
+vendor/lib/libthermalfeature.so
+vendor/lib64/libthermalfeature.so
+vendor/lib64/libthermalioctl.so
+-vendor/lib/libthermalclient.so
+-vendor/lib64/libthermalclient.so
 
 # Time services - from jasmine-user 10 QKQ1.190910.002 V11.0.5.0.QDIMIXM release-keys
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|27f9b81621c446baa8c37581d9bfbca2fd67b496
