@@ -22,5 +22,11 @@
     "repository":  "SakilMondal/vendor_qcom_common",
     "target_path": "vendor/qcom/common",
     "branch":      "10.x"
-  }
+  },
+  {
+    "remote":      "github",
+    "repository":  "SakilMondal/vendor_dirac",
+    "target_path": "vendor/dirac",
+    "branch":      "10.x"
+  }  
 ]

@@ -27,6 +27,7 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit from custom vendor
 $(call inherit-product, vendor/MiuiCamera/config.mk)
+$(call inherit-product, vendor/dirac/dirac.mk)
 
 # Inherit some common AEX stuff.
 $(call inherit-product, vendor/aosp/common.mk)
