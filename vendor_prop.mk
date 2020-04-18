@@ -217,3 +217,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WFD
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.virtual=0
+
+# ParanoidDoze
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sensor.proximity=true \
+    ro.sensor.pickup=xiaomi.sensor.pickup
+
+
