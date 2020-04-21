@@ -70,6 +70,12 @@ TARGET_KERNEL_CLANG_COMPILE := true
 BOARD_USES_QCOM_HARDWARE := true
 TARGET_USE_SDCLANG := true
 
+# Add namespaces to Qualcomm hals
+PRODUCT_SOONG_NAMESPACES += \
+        hardware/qcom/media$(QCOM_HARDWARE_VARIANT) \
+        vendor/qcom/opensource/audio-hal/primary-hal$(QCOM_HARDWARE_VARIANT) \
+        hardware/qcom/display$(QCOM_HARDWARE_VARIANT)
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
