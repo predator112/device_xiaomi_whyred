@@ -350,6 +350,10 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Perf
+TARGET_COMMON_QTI_COMPONENTS := \
+    perf
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
