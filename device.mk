@@ -36,10 +36,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage/lineage-sdk \
     $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap
 
-#QTI Common
-    -include vendor/qcom/common/av/qti-av.mk
-    -include vendor/qcom/common/perf/qti-perf.mk
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += device/xiaomi/whyred
 
@@ -355,7 +351,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw
 
 # Perf
-#TARGET_COMMON_QTI_COMPONENTS := \
+TARGET_COMMON_QTI_COMPONENTS := \
     perf
 
 # Power
