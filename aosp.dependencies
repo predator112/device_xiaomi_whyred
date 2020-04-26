@@ -1,0 +1,38 @@
+[
+ {
+   "remote": "github",
+   "repository": "Jhonse02/device_xiaomi_whyred",
+   "target_path": "device/xiaomi/whyred",
+   "branch": "aosp"
+   
+ },
+ {
+   "remote": "github",
+   "repository": "Jhonse02/vendor_xiaomi_whyred",
+   "target_path": "vendor/xiaomi/whyred",
+   "branch": "lineage-17.1"
+   
+ },
+ {
+   "remote": "github"
+   "repository": "xiaomeme-whyred/android_kernel_xiaomi_whyred",
+   "target_path": "kernel/xiaomi/whyred",
+   "branch": "10.x"
+   
+ },
+ {
+    "repository": "android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings"
+ },
+ {
+    "repository": "vendor_MiuiCamera",
+    "target_path": "vendor/MiuiCamera",
+    "branch": "ten-whyred"
+  },
+  {
+    "repository": "packages_apps_PixelLiveWallpaper",
+    "target_path": "packages/apps/PixelLiveWallpaper",
+    "branch": "ten",
+    "remote": "pixel-gitlab"
+  }
+]
