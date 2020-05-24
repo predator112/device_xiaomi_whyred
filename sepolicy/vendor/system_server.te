@@ -10,6 +10,9 @@ allow system_server fpnav_hwservice:hwservice_manager { add find };
 
 allow system_server sysfs_rtc:file r_file_perms;
 
+# Smart charger
+allow system_server sysfs_battery_supply:file rw_file_perms;
+
 # /vendor/usr/keylayout
 r_dir_file(system_server, idc_file)
 # /vendor/usr/idc
